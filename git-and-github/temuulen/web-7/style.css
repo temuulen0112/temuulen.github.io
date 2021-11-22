@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-header{
+    flex-direction: row;
+    color: #0d1312;
+    margin-bottom: 50px;
+}   
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lists{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.lists a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #0d1312;
+}
+
+.lists .clone a{ 
+    color: #f58a07;
+    background: #fae1c4;
+    border-radius: 20px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+input[type="email"] {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    width: 60%;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+textarea{
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px o rgb(0 0 0 / 3%);
+    width: 90%;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.locate{
+    margin-left: 50px;
+}
+
+.locate li{
+    list-style-type: none;
+}
+
+.locate a{
+    text-decoration: none;
+    color: #0d1312;
+}
+
+.locate img{
+    border-radius: 30px;
+}
+
+.submit{
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.go{
+    background: #063255;
+    color: white;
+    position: relative;
+    padding: 100px 0;
+}
+
+.go::after{
+    content: "";
+    width: 3%;
+    height: 70%;
+    right: 0;
+    top: 10%;
+    bottom: 40%;
+    position: absolute;
+    background-color: #f58a07;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact li{
+    list-style-type: none;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: #f58a07;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.subscribe{
+    border-radius: 20px;
+}
+

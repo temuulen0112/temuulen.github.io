@@ -1,0 +1,73 @@
+
+html {
+    font-size: 16px;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+.heading {
+    font-size: 2rem;
+  }
+  
+.heading{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 16px;
+    font-size: 3em;
+  }
+
+.panpan{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 16px;
+    font-size: 1.25em;
+  }
+
+.temk{
+    width: 80%;
+    background-color: #EDDFEF;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+}
+
+section{
+    margin: 2px 2px;
+    border: 2px solid rosybrown;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+    height: 325px;
+    float: left;
+} 
+
+.heading {
+    font-size: 2rem;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+#temka{
+    display: inline-block;
+    padding: 2px;
+}
+
+#education #experience #pan #temka{
+    display: inline-block;
+    margin: 30px;
+    width: 50%;
+    width: calc(50%-15px);
+    height: 50px;
+}
+
+    /* Challenge style goes here */

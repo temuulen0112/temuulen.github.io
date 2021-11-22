@@ -1,0 +1,23 @@
+.logo{
+    position: absolute;
+    top: -45px;
+    left: 20px;
+}
+
+.banner{
+    position: sticky;
+    top: 26%;
+}
+
+.card{
+    position: relative;
+}
+
+.card .logo{
+    position: relative;
+    
+    
+}
+
+
+/* Challenge style goes here */

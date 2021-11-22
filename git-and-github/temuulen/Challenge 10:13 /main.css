@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+.naruto{
+    color: rosybrown;
+}
+
+.temka:hover{
+    background:rgb(70, 189, 149);
+}
+
+.naruto:hover{
+   color: darkorange;
+}
+
+.uchiha{
+    color: darksalmon;
+}
+
+.naruto-uzu:hover{
+    color: rgb(247, 74, 74);
+}
+
+.list:hover{
+    background: rosybrown;
+}
+
+.sakura{
+    color: royalblue
+}
+
+.sakura-hana:hover{
+    color: fuchsia;
+}
+
+.boom:hover{
+    background: rgb(168, 159, 247);
+}
+
+.sasuke{
+    color: darkorange;
+}
+
+.sasuke-uch:hover{
+    color: lightgreen;
+}

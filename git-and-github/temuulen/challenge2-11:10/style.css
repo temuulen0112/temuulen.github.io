@@ -1,0 +1,75 @@
+body{
+    background: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*main{
+    background-image: url(./images/background-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}*/
+
+.form_section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+fieldset{
+    border: none;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+#name{
+    border: none;
+    border-radius: 20px;
+    padding:10px 5px;   
+}
+
+.pass{
+    margin-bottom: 20px;
+}
+
+#password{
+    border: none;
+    border-radius: 20px;
+    padding:10px 5px; 
+}
+
+.logIn{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/*input[type="text"],
+input[type="password"] {
+    margin: 10px auto;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    
+}
+
+button{
+    color: rgb(89, 92, 236);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}*/
+
+@media only screen and (width: 378px) {
+    .form_section{
+        display: flex;
+        flex-direction: column;
+    }
+}

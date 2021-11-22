@@ -1,0 +1,22 @@
+body{
+    color: goldenrod;
+}
+
+.kousei{
+    margin: auto;
+    border: black solid 2px;
+}
+
+.temka:hover{
+    background-color: indigo;
+}
+
+.temk:hover{
+    background-color: lightblue;
+}
+.tem:hover{
+    background-color: lightsalmon;
+}
+.te:hover{
+    background-color: royalblue;
+}

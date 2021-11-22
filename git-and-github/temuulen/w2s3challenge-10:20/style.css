@@ -1,0 +1,14 @@
+/* Complete the challenge by writing CSS below */
+
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    flex-basis: auto;
+}
+
+.item-1{
+    flex-grow: 0;
+}

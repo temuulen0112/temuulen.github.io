@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <form action="index.html" method="post">
+            <fieldset>
+                <legend>Tell us about yourself</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name" placeholder="User name">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="user_password" placeholder="Password">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="user_email" placeholder="Email">
+                <label for="comment">Comment</label>
+                <textarea id="comment" name="user_comment" placeholder="Write a comment"></textarea>
+                <button class="Submit comment" type="submit">Submit comment</button>
+            </fieldset>
+            
+            <label for="job">Job role</label>
+            <select name="user_job" id="job">
+                <optgroup label="Options">
+                    <option value="option-1">Pan</option>
+                    <option value="option-2">Pen</option>
+                </optgroup>
+            </select>
+            <div>
+                <label for="">Gender:</label>
+                <input type="radio" id="male" name="user_gender"><label for="male">Male</label>
+                <input type="radio" id="female" name="user_gender"><label for="female">Female</label>
+            </div>
+            <label for="interest">Interest:</label>
+            <input type="checkbox" id="one" value="" name="user_interest"> <label for="one">Basketball</label>
+            <input type="checkbox" id="two" value="" name="user_interest"> <label for="two">Volleyball</label>
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+

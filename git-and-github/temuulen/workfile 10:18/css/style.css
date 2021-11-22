@@ -1,0 +1,188 @@
+/* Web Fonts ----------------------- */
+html {
+  font-size: 1.25em; /* 20px on most screens */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font declaration */
+}
+
+
+
+.lorem{
+  padding: 30px;
+  background-image: url(../img/rose.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.merol{
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  text-shadow: 5px 5px 10px rgb(0, 30, 199);
+}
+
+header{
+  width: 100%;
+  background-color: orange;
+  background-image: url("../img/shigatsu\ wa\ kimi\ no\ uso.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+header::before{
+  content:"";
+  width: 100%;  
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, .2);
+  z-index: -1;
+}
+
+.title{
+  font-family: 'Source Code Pro', monospace;
+}
+  
+/* Base Styles --------------------- */
+
+main{
+  background-image: url(../img/pastel.jpeg);
+}
+
+*{
+  box-sizing: border-box;
+}
+  
+  
+h1{
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  text-shadow: 5px 5px 10px whitesmoke;
+  /* font declaration */
+}
+
+.temka{
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  padding: 20px;
+  margin: 20px 0 20px 0;
+  box-shadow: 0 -2px 20px #6564DB inset;
+  position: relative;
+  border-radius: 20px;
+  background-image: url(../img/nature.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.temka::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-image: linear-gradient(rgba(135, 120, 80, 0.575), rgba(115, 69, 116, 0.575));
+  z-index: -1;
+}
+
+.callouts{
+  padding: 14px 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 1);
+}
+
+.callouts:hover{
+  color: #F9B3D1;
+}
+
+.callout{
+  padding: 14px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #E6E49F;
+  border-radius: 8px;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 1);
+}
+
+.callout:hover{
+  color: #53687E;
+}
+
+#wildlife{
+  width: 100%;
+  height: 100%;
+  color: #E6E49F;
+  font-family: 'Source Code Pro', monospace;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 -2px 20px #00A6FB inset;
+  position: relative;
+  border-radius: 20px;
+  background-image: url(../img/space.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+#wildlife::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-image: linear-gradient( to top right, rgba(87, 33, 212, 0.644), rgba(117, 12, 202, 0.445) );
+  z-index: -1;
+}
+
+.life{
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.25rem;
+  text-shadow: 5px 5px 10px royalblue;
+}
+
+img{
+  width: 100%; /* responsive images */
+}
+
+.lists{
+  color: #fff81e;
+}
+
+/* Main Styles --------------------- */
+
+
+/* Media Queries ------------------- */
